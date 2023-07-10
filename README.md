@@ -6,7 +6,7 @@ Untuk saat ini masih dalam tahap awal, semoga Allah SWT memberikan kami
 kemudahan dalam penyelesaiannya.
 
 [Practical Rust Concurrency in Bahasa
-Indonesia](https://datafy-id.github.io/concurrency-terapan-pemrograman-rust/html/)
+Indonesia](https://datafy-id.github.io/concurrency-terapan-pemrograman-rust/)
 
 Kontribusi dalam berbagai bentuk sangat kami harapkan, semoga Allah SWT membalas
 setiap kontribusi dengan balasan yang berlipat ganda. Amin.
