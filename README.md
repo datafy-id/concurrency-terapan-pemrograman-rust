@@ -2,19 +2,46 @@
 
 Bismillahirrohmanirrohim.
 
-TLDR;
+Untuk saat ini masih dalam tahap awal, semoga Allah SWT memberikan kami
+kemudahan dalam penyelesaiannya.
+
+[Practical Rust Concurrency in Bahasa
+Indonesia](https://datafy-id.github.io/concurrency-terapan-pemrograman-rust/html/)
+
+Kontribusi dalam berbagai bentuk sangat kami harapkan, semoga Allah SWT membalas
+setiap kontribusi dengan balasan yang berlipat ganda. Amin.
+
+Untuk memulai kontribusi, berikut petunjuk singkatnya:
 
 ```sh
+# Install mdbook
 cargo install mdbook
 
+# Clone
 git clone https://github.com/datafy-id/concurrency-terapan-pemrograman-rust.git
 cd concurrency-terapan-pemrograman-rust
-mdbook serve
 
+# Start development server
+mdbook serve
+```
+
+Untuk generate output pdf via cli, bisa gunakan
+[mdbook-pdf](https://github.com/HollowMan6/mdbook-pdf):
+
+```sh
+sudo dnf install chromium-headless # required by mdbook-pdf
+cargo install rustfmt # required by mdbook-pdf
+cargo install mdbook-pdf
+MDBOOK_OUTPUT__PDF='{}' mdbook build  # will create ./book/pdf/output.pdf
+```
+
+Jika tidak berhasil install mdbook-pdf via cargo karena sesuatu atau lain hal,
+bisa gunakan mdbook-pdf via docker:
+
+```sh
 docker run --rm -v $(pwd):/book hollowman6/mdbook-pdf
 ```
 
-Contributions, in any form, are most welcome and greatly appreciated.
 
 # License
 
