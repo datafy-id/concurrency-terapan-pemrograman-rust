@@ -3,6 +3,8 @@ authors = ["Muhammad Ridho"]
 language = "en"
 multilingual = false
 src = "src"
-title = "Concurrency Terapan Pemrograman Rust"
+title = "Concurrency Terapan dengan Bahasa Pemrograman Rust"
 
 [output.html]
+git-repository-url = "https://github.com/datafy-id/concurrency-terapan-pemrograman-rust"
+site-url = "https://datafy-id.github.io/concurrency-terapan-pemrograman-rust/"
