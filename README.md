@@ -10,6 +10,8 @@ cargo install mdbook
 git clone https://github.com/datafy-id/concurrency-terapan-pemrograman-rust.git
 cd concurrency-terapan-pemrograman-rust
 mdbook serve
+
+docker run --rm -v $(pwd):/book hollowman6/mdbook-pdf
 ```
 
 Contributions, in any form, are most welcome and greatly appreciated.

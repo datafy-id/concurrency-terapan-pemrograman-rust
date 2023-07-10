@@ -4,3 +4,8 @@ language = "en"
 multilingual = false
 src = "src"
 title = "Concurrency Terapan Pemrograman Rust"
+
+[output.html]
+
+[output.pdf]
+optional = true
