@@ -1,0 +1,6 @@
+[book]
+authors = ["Muhammad Ridho"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Concurrency Terapan Pemrograman Rust"
