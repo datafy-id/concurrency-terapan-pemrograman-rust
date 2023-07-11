@@ -9,6 +9,7 @@ tag="v${version}-${rev}"
 if [ -z "$(git status --porcelain)" ]; then
     # Working directory clean
     git tag ${tag}
+    echo "Tag ${tag} was created, now run: git push --tags"
 else
     # Uncommitted changes
     echo "ERROR: working directory is dirty"
